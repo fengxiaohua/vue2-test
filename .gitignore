@@ -1,6 +1,6 @@
 .DS_Store
 node_modules/
-# /dist/ 这里主要在github服务器进行预览，所以注释了，后期更新到自己服务器上再说
+/dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
