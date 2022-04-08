@@ -1,6 +1,9 @@
+<!--
+ * @Description: 主页面
+ * @Date: 2022-04-08 13:54:28
+-->
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
