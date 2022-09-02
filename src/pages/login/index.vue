@@ -4,9 +4,10 @@
 -->
 <template>
   <div class="login">
+    <h1>Welcome to vue2-test</h1>
     <a-form-model class="form" :model="loginForm">
       <a-form-model-item prop="userName" label="用户名">
-        <a-input placeholder="请输入用户名" v-model="loginForm.userName">
+        <a-input placeholder="请输入用户名1" v-model="loginForm.userName">
         </a-input>
       </a-form-model-item>
       <a-form-model-item prop="password" label="密码">
@@ -45,6 +46,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: url('~@/assets/img/login.jpeg') no-repeat;
 
   .form {
     padding: 20px;
